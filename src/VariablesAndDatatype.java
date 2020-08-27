@@ -14,9 +14,7 @@ public class VariablesAndDatatype {
         //without the leading spaces
         System.out.println(txt.trim());
         //Repeat the printed String 15 times seperated with linebreaks
-        for (int i = 0; i < 15; i++) {
-            System.out.println(txt);
-        }
-
+        txt += "\n";
+        System.out.println(txt.repeat(15));
     }
 }
